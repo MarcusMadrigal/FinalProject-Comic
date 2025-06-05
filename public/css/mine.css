@@ -36,6 +36,9 @@ ________________________________________________________________________________
   grid-column-start: 2;
   grid-row-start: 2;
 }
-/*.sampleText{
 
+.sampleText{
+  font-size: 24;
+  line-height: 100px;
+  color:black;
 }
