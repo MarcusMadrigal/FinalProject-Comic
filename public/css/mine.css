@@ -4,3 +4,31 @@
   grid-template-rows: 1fr 1fr 1fr;
   gap: 20px;
 }
+
+.frame{
+  background-color: blue;
+  border: 10px, ridge black;
+}
+
+.fristframe{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.secondframe{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.thirdframe{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+/*.sampleText{
+
+}
