@@ -43,7 +43,7 @@ var LIST = [
 ];
 
 var build = function(x, bricks) {
-    var builder = document.getElementById(x);
+    //var builder = document.getElementById(x);
     
     for(
         var i = 0;
@@ -77,15 +77,15 @@ var build = function(x, bricks) {
         }
 
         for(
-            var c = 0;
-            c < bricks[i].character.length;
-            c++
+            var o = 0;
+            o < bricks[i].otherThing.length;
+            o++
         ){
-            var characterHTML = document.createElement("div");
-            characterHTML.innerHTML = bricks[i].character[c];
-            characterHTML.classList.add("character");
-            characterHTML.classList.add(bricks[i].character[c]);
-            building.append(characterHTML);
+            var otherThingHTML = document.createElement("div");
+            otherThingHTML.innerHTML = bricks[i].otherThing[o];
+            otherThingHTML.classList.add("otherThing");
+            otherThingHTML.classList.add(bricks[i].otherThing[o]);
+            building.append(otherThingHTML);
         }
 
         document.body.append(building);
