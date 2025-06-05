@@ -1,13 +1,13 @@
 body{
   background-color: black;
-  margin: 20px;
+  margin: 40px;
 }
 
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 550px 550px 550px;
-  gap: 20px;
+  gap: 40px;
 }
 
 
@@ -22,6 +22,8 @@ Frame Stuff
   background-color: aliceblue;
   border: 10px, ridge black;
   font-size: 0px;
+  box-shadow: 0px 0px 40px white;
+  border-radius: 20px;
 }
 
 .firstFrame{
@@ -49,7 +51,7 @@ Text Stuff
 */
 
 .words{
-
+  font-size: 24px;
 }
 
 .sampleText{
@@ -62,9 +64,43 @@ Text Stuff
   grid-row-start: 1;
 }
 
+.sampleTextThree{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.sampleTextFour{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
 /*
 _____________________________________________________________________________________________________________
 
 Character Stuff
 
 */
+
+.characters{
+  font-size: 0px;
+}
+
+.IDK{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.IDKtwo{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.IDKthree{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.IDKfour{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
