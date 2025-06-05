@@ -1,12 +1,22 @@
+body{
+  background-color: black;
+  margin: 20px;
+}
+
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 550px 550px 550px;
   gap: 20px;
 }
 
+
+/*
+_________________________________________________________________________________________
+
+*/
 .frame{
-  background-color: blue;
+  background-color: aliceblue;
   border: 10px, ridge black;
 }
 
