@@ -6,55 +6,40 @@
 var LIST = [
     
     {
-        character: [
-            "Computer1"
+        frame: [
+            "firstFrame"
         ],
-        frame: "C",
-        words:[
-            "Run_for_your_life",
+        words: [
+            "sampleText"
+        ],
+        otherThing: [
+            "IDK"
         ]
+    },
 
-    },
     {
-        character: [
-            "Human"
+        frame: [
+            "secondFrame"
         ],
-        frame: "H",
-        words:[
-            "AAAAAAAAAAAAAAAAAAAHHHHHHHHH",
+        words: [
+            "sampleTextTwo"
+        ],
+        otherThing: [
+            "IDKtwo"
         ]
     },
+
     {
-        character: [
-            "Computer2",
-            "fire"
+        frame: [
+            "thirdFrame"
         ],
-        frame: "T",
-        words:[
-            "HAHAHAHAHA",
-            "HAHAHAHA",
-            "HAHAHA",
-            "HAHA"
+        words: [
+            "sampleTextThree"
+        ],
+        otherThing: [
+            "IDKthree"
         ]
     },
-    {
-        character: [
-            "Explosion"
-        ],
-        frame: "E",
-        words:[
-            "NOOOOOOOOOOOOOOO"
-        ]
-    },
-    /*{
-        character: [
-            "Computer3"
-        ],
-        frame: "R",
-        words:[
-            "I'm_not_done_yet"
-        ]
-    }*/
 ];
 
 var build = function(x, bricks) {
