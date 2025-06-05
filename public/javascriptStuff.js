@@ -1,8 +1,3 @@
-//Thing that alerts us when the page loads
-//alert("SCRIPTS!");
-
-
-// Draw Variable Thingy
 var LIST = [
     
     {
@@ -12,7 +7,7 @@ var LIST = [
         words: [
             "sampleText"
         ],
-        otherThing: [
+        characters: [
             "IDK"
         ]
     },
@@ -24,7 +19,7 @@ var LIST = [
         words: [
             "sampleTextTwo"
         ],
-        otherThing: [
+        characters: [
             "IDKtwo"
         ]
     },
@@ -36,7 +31,7 @@ var LIST = [
         words: [
             "sampleTextThree"
         ],
-        otherThing: [
+        characters: [
             "IDKthree"
         ]
     },
@@ -47,15 +42,14 @@ var LIST = [
         words: [
             "sampleTextFour"
         ],
-        otherThing: [
+        characters: [
             "IDKfour"
         ]
     },
 ];
 
 var build = function(x, bricks) {
-    //var builder = document.getElementById(x);
-    
+
     for(
         var i = 0;
         i < bricks.length;
@@ -88,15 +82,15 @@ var build = function(x, bricks) {
         }
 
         for(
-            var o = 0;
-            o < bricks[i].otherThing.length;
-            o++
+            var c = 0;
+            c < bricks[i].characters.length;
+            c++
         ){
-            var otherThingHTML = document.createElement("div");
-            otherThingHTML.innerHTML = bricks[i].otherThing[o];
-            otherThingHTML.classList.add("otherThing");
-            otherThingHTML.classList.add(bricks[i].otherThing[o]);
-            building.append(otherThingHTML);
+            var charactersHTML = document.createElement("div");
+            charactersHTML.innerHTML = bricks[i].characters[c];
+            charactersHTML.classList.add("characters");
+            charactersHTML.classList.add(bricks[i].characters[c]);
+            building.append(charactersHTML);
         }
 
         document.body.append(building);
