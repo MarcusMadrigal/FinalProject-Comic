@@ -22,7 +22,10 @@
   grid-column-start: 1;
   grid-row-start: 2;
 }
-
+.fourthFrame{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
 /*.sampleText{
 
 }
