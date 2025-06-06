@@ -47,6 +47,17 @@ var LIST = [
             "IDKfour"
         ]
     },
+    {
+        frame: [
+            "fifthFrame"
+        ],
+        words: [
+            "sampleTextFive"
+        ],
+        characters: [
+            "IDKfive"
+        ]
+    },
 ];
 
 var build = function(x, bricks) {

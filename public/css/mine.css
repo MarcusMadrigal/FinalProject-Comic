@@ -42,6 +42,10 @@ Frame Stuff
   grid-column-start: 2;
   grid-row-start: 2;
 }
+.fifthFrame{
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
 
 /*
 _____________________________________________________________________________________________________________
@@ -58,20 +62,21 @@ Text Stuff
   grid-column-start: 1;
   grid-row-start: 1;
 }
-
 .sampleTextTwo{
   grid-column-start: 2;
   grid-row-start: 1;
 }
-
 .sampleTextThree{
   grid-column-start: 1;
   grid-row-start: 2;
 }
-
 .sampleTextFour{
   grid-column-start: 2;
   grid-row-start: 2;
+}
+.sampleTextFive{
+  grid-column-start: 1;
+  grid-row-start: 3;
 }
 
 /*
@@ -89,18 +94,19 @@ Character Stuff
   grid-column-start: 1;
   grid-row-start: 1;
 }
-
 .IDKtwo{
   grid-column-start: 2;
   grid-row-start: 1;
 }
-
 .IDKthree{
   grid-column-start: 1;
   grid-row-start: 2;
 }
-
 .IDKfour{
   grid-column-start: 2;
   grid-row-start: 2;
+}
+.IDKfive{
+  grid-column-start: 1;
+  grid-row-start: 3;
 }
