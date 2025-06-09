@@ -3,6 +3,7 @@ body{
   margin: 40px;
 }
 
+
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -18,6 +19,7 @@ Frame Stuff
 
 */
 
+
 .frame{
   background-color: aliceblue;
   border: 10px, ridge black;
@@ -25,6 +27,7 @@ Frame Stuff
   box-shadow: 0px 0px 40px white;
   border-radius: 20px;
 }
+
 
 .firstFrame{
   grid-column-start: 1;
@@ -47,6 +50,7 @@ Frame Stuff
   grid-row-start: 3;
 }
 
+
 /*
 _____________________________________________________________________________________________________________
 
@@ -54,9 +58,11 @@ Text Stuff
 
 */
 
+
 .words{
   font-size: 24px;
 }
+
 
 .sampleText{
   grid-column-start: 1;
@@ -79,6 +85,7 @@ Text Stuff
   grid-row-start: 3;
 }
 
+
 /*
 _____________________________________________________________________________________________________________
 
@@ -86,11 +93,15 @@ Character Stuff
 
 */
 
+
 .characters{
   font-size: 0px;
 }
 
-.IDK{
+
+.SpongebobOne{
+  background: url(/public/img/SexySpongebob.png) no-repeat;
+  
   grid-column-start: 1;
   grid-row-start: 1;
 }

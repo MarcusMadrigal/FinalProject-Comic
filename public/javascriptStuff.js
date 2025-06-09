@@ -8,8 +8,7 @@ var LIST = [
             "sampleText"
         ],
         characters: [
-            "IDK",
-            "d"
+            "SpongebobOne"
         ]
     },
 
