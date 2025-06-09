@@ -94,15 +94,14 @@ Character Stuff
 .SpongebobOne{
   grid-column-start: 1;
   grid-row-start: 1;
-  background: url(/public/img/SexySpongebob.png) no-repeat;
+  background: url(../img/SexySpongebob.png) no-repeat;
   width: 500px;
-  height: 300px;
+  height: 350px;
   position: relative;
   left: 50px;
   top: 50px;
-  border: 20px ridge blue;
-  background-size: 150%;
-  z-index: 1000px;
+  background-size: 100%;
+  z-index: 1000;
 }
 .IDKtwo{
   grid-column-start: 2;
