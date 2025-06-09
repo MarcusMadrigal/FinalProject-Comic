@@ -45,18 +45,7 @@ var LIST = [
         characters: [
             "IDKfour"
         ]
-    },
-    {
-        frame: [
-            "fifthFrame"
-        ],
-        words: [
-            "sampleTextFive"
-        ],
-        characters: [
-            "IDKfive"
-        ]
-    },
+    }
 ];
 
 var build = function(x, bricks) {
@@ -109,4 +98,3 @@ var build = function(x, bricks) {
 }
 
 build("building", LIST);
-//
