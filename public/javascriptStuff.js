@@ -20,7 +20,9 @@ var LIST = [
             "sampleText2"
         ],
         characters: [
-            "Spongebob2"
+            "Spongebob2",
+            "BlackBox1",
+            "BlackBox2"
         ]
     },
 

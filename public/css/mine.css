@@ -109,6 +109,16 @@ Character Stuff
 .Spongebob2{
   grid-column-start: 2;
   grid-row-start: 1;
+  background: url(../img/SeriousSpongebob.png) no-repeat;
+  width: 500px;
+  height: 350px;
+  position: relative;
+  left: 40px;
+  transform: translateX(-50%);
+  top: 150px;
+  background-size: 100%;
+  z-index: 999;
+  transform: rotateY(180deg);
 }
 .Homelander1{
   grid-column-start: 1;
@@ -159,4 +169,3 @@ Nex Page Stuff
     50% {width: 180px; height: 110px; top: 1230px; left: 1015px;}
     100% {width: 200px; height: 120px; top: 1225px; left: 1005px;}
 }
-/*
