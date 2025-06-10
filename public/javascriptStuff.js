@@ -8,7 +8,7 @@ var LIST = [
             "sampleText"
         ],
         characters: [
-            "SpongebobOne"
+            "Spongebob1"
         ]
     },
 
@@ -17,10 +17,10 @@ var LIST = [
             "secondFrame"
         ],
         words: [
-            "sampleTextTwo"
+            "sampleText2"
         ],
         characters: [
-            "IDKtwo"
+            "Spongebob2"
         ]
     },
 
@@ -29,10 +29,10 @@ var LIST = [
             "thirdFrame"
         ],
         words: [
-            "sampleTextThree"
+            "sampleText3"
         ],
         characters: [
-            "IDKthree"
+            "Homelander1"
         ]
     },
     {
@@ -40,10 +40,12 @@ var LIST = [
             "fourthFrame"
         ],
         words: [
-            "sampleTextFour"
+            "sampleText4"
         ],
         characters: [
-            "IDKfour"
+            "Spongebob3",
+            "Homelander2",
+            "Patrick1"
         ]
     }
 ];
