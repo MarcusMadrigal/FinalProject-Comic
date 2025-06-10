@@ -113,6 +113,14 @@ Character Stuff
 .Homelander1{
   grid-column-start: 1;
   grid-row-start: 2;
+  background: url(../img/Homelander_ArmUp_Floating.png) no-repeat;
+  width: 500px;
+  height: 600px;
+  position: relative;
+  left: 50px;
+  top: 50px;
+  background-size: 100%;
+  z-index: 1000;
 }
 .Spongebob3{
   grid-column-start: 2;
