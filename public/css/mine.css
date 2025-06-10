@@ -101,8 +101,8 @@ Character Stuff
   width: 500px;
   height: 350px;
   position: relative;
-  left: 50px;
-  top: 200px;
+  left: 150px;
+  top: 400px;
   background-size: 25%;
   z-index: 1000;
 }
