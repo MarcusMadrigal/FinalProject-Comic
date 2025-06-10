@@ -30,6 +30,9 @@ Frame Stuff
 
 
 .firstFrame{
+  background: url(../img/SpongebobHouse.png) no-repeat;
+  background-position: 10%;
+  background-size: 130%;
   grid-column-start: 1;
   grid-row-start: 1;
 }
@@ -99,8 +102,8 @@ Character Stuff
   height: 350px;
   position: relative;
   left: 50px;
-  top: 50px;
-  background-size: 100%;
+  top: 200px;
+  background-size: 25%;
   z-index: 1000;
 }
 .IDKtwo{
