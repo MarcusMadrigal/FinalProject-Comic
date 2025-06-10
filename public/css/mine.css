@@ -64,15 +64,15 @@ Text Stuff
   grid-column-start: 1;
   grid-row-start: 1;
 }
-.sampleTextTwo{
+.sampleText2{
   grid-column-start: 2;
   grid-row-start: 1;
 }
-.sampleTextThree{
+.sampleText3{
   grid-column-start: 1;
   grid-row-start: 2;
 }
-.sampleTextFour{
+.sampleText4{
   grid-column-start: 2;
   grid-row-start: 2;
 }
@@ -91,7 +91,7 @@ Character Stuff
 }
 
 
-.SpongebobOne{
+.Spongebob1{
   grid-column-start: 1;
   grid-row-start: 1;
   background: url(../img/SexySpongebob.png) no-repeat;
@@ -103,24 +103,31 @@ Character Stuff
   background-size: 100%;
   z-index: 1000;
 }
-.IDKtwo{
+.Spongebob2{
   grid-column-start: 2;
   grid-row-start: 1;
 }
-.IDKthree{
+.Homelander1{
   grid-column-start: 1;
   grid-row-start: 2;
 }
-.IDKfour{
+.Spongebob3{
   grid-column-start: 2;
   grid-row-start: 2;
 }
-
+.Homelander2{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+.Patrick1{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
 
 /*
 _____________________________________________________________________________________________________________
 
-Character Stuff
+Nex Page Stuff
 
 */
 
