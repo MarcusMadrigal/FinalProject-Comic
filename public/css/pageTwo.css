@@ -1,0 +1,179 @@
+body{
+  background-color: black;
+  margin: 40px;
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 550px 550px 120px;
+  gap: 40px;
+}
+
+
+/*
+_____________________________________________________________________________________________________________
+
+Frame Stuff
+
+*/
+
+
+.frame{
+  background-color: aliceblue;
+  border: 10px, ridge black;
+  font-size: 0px;
+  box-shadow: 0px 0px 40px white;
+  border-radius: 20px;
+}
+
+
+.firstFrame{
+  background: url(../img/SpongebobHouse.png) no-repeat;
+  background-position: 10%;
+  background-size: 130%;
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.secondFrame{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.thirdFrame{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.fourthFrame{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+
+/*
+_____________________________________________________________________________________________________________
+
+Text Stuff
+
+*/
+
+
+.words{
+  font-size: 24px;
+}
+
+
+.sampleText{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.sampleText2{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.sampleText3{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.sampleText4{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+
+/*
+_____________________________________________________________________________________________________________
+
+Character Stuff
+
+*/
+
+
+.characters{
+  font-size: 0px;
+}
+
+
+.Spongebob1{
+  grid-column-start: 1;
+  grid-row-start: 1;
+  background: url(../img/SexySpongebob.png) no-repeat;
+  width: 500px;
+  height: 350px;
+  position: relative;
+  left: 150px;
+  top: 400px;
+  background-size: 25%;
+  z-index: 1000;
+}
+.Spongebob2{
+  grid-column-start: 2;
+  grid-row-start: 1;
+  background: url(../img/SeriousSpongebob.png) no-repeat;
+  width: 500px;
+  height: 350px;
+  position: relative;
+  left: 40px;
+  transform: translateX(-50%);
+  top: 150px;
+  background-size: 100%;
+  z-index: 999;
+  transform: rotateY(180deg);
+}
+.Homelander1{
+  grid-column-start: 1;
+  grid-row-start: 2;
+  background: url(../img/Homelander_ArmUp_Floating.png) no-repeat;
+  width: 500px;
+  height: 600px;
+  position: relative;
+  left: 50px;
+  top: 50px;
+  background-size: 100%;
+  z-index: 1000;
+}
+.Spongebob3{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+.Homelander2{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+.Patrick1{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+/*
+_____________________________________________________________________________________________________________
+
+Nex Page Stuff
+
+*/
+
+
+.nextPage{
+  height: 120px;
+  width: 200px;
+  position: absolute;
+  left: 1005px;
+  top: 1225px;
+  border-radius: 20px;
+  font-size: 50px;
+  background-color: darkgray;
+}
+
+.nextPage:hover{
+    background-color: white;
+    animation-name: buttonMove;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes buttonMove{
+    0% {width: 200px; height: 120px; top: 1225px; left: 1005px;}
+    50% {width: 180px; height: 110px; top: 1230px; left: 1015px;}
+    100% {width: 200px; height: 120px; top: 1225px; left: 1005px;}
+}
