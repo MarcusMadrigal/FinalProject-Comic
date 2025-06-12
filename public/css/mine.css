@@ -44,13 +44,13 @@ Frame Stuff
   grid-row-start: 1;
 }
 .thirdFrame{
-  background: url(../img/Crusty_Crab.jpg) no-repeat;
-  background-position: 40%;
-  background-size: 180%;
   grid-column-start: 1;
   grid-row-start: 2;
 }
 .fourthFrame{
+  background: url(../img/Crusty_Crab.jpg) no-repeat;
+  background-position: 40%;
+  background-size: 180%;
   grid-column-start: 2;
   grid-row-start: 2;
 }
@@ -128,7 +128,7 @@ Character Stuff
     left: 150px;
   }
 }
-.Spongebob2{
+.Spongebob3{
   grid-column-start: 2;
   grid-row-start: 1;
   background: url(../img/SeriousSpongebob.png) no-repeat;
@@ -202,7 +202,7 @@ Character Stuff
   z-index: 1000;
 }
 .Homelander1{
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-row-start: 2;
   background: url(../img/Homelander_ArmUp_Floating.png) no-repeat;
   width: 500px;
@@ -212,18 +212,6 @@ Character Stuff
   top: 50px;
   background-size: 100%;
   z-index: 1000;
-}
-.Spongebob3{
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
-.Homelander2{
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
-.Patrick1{
-  grid-column-start: 2;
-  grid-row-start: 2;
 }
 
 /*
