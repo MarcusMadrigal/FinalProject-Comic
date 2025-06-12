@@ -11,7 +11,7 @@ var LIST = [
             "Spongebob1"
         ]
     },
-//
+
     {
         frame: [
             "secondFrame"
@@ -21,8 +21,8 @@ var LIST = [
         ],
         characters: [
             "Spongebob2",
-            //"BlackBox1",
-            //"BlackBox2"
+            "BlackBox1",
+            "BlackBox2"
         ]
     },
 
