@@ -44,6 +44,9 @@ Frame Stuff
   grid-row-start: 1;
 }
 .thirdFrame{
+  background: url(../img/Crusty_Crab.jpg) no-repeat;
+  background-position: 40%;
+  background-size: 180%;
   grid-column-start: 1;
   grid-row-start: 2;
 }
