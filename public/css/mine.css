@@ -36,13 +36,13 @@ Frame Stuff
   grid-column-start: 1;
   grid-row-start: 1;
 }
-.secondFrame{
+.fourthFrame{
   background: url(../img/SpongebobHouse.png) no-repeat;
   background-position-x: 20%;
   background-position-y: 110%;
   background-size: 280%;
   grid-column-start: 2;
-  grid-row-start: 1;
+  grid-row-start: 2;
 }
 .thirdFrame{
   background: url(../img/Crusty_Crab.jpg) no-repeat;
@@ -53,9 +53,8 @@ Frame Stuff
 }
 .fourthFrame{
   grid-column-start: 2;
-  grid-row-start: 2;
+  grid-row-start: 1;
 }
-
 
 /*
 _____________________________________________________________________________________________________________
@@ -129,9 +128,9 @@ Character Stuff
     left: 150px;
   }
 }
-.Spongebob2{
+.Spongebob3{
   grid-column-start: 2;
-  grid-row-start: 1;
+  grid-row-start: 2;
   background: url(../img/SeriousSpongebob.png) no-repeat;
   width: 500px;
   height: 350px;
@@ -182,7 +181,7 @@ Character Stuff
 }
 .BlackBox1{
   grid-column-start: 2;
-  grid-row-start: 1;
+  grid-row-start: 2;
   width: 548px;
   height: 200px;
   background-color: black;
@@ -193,7 +192,7 @@ Character Stuff
 }
 .BlackBox2{
   grid-column-start: 2;
-  grid-row-start: 1;
+  grid-row-start: 2;
   width: 548px;
   height: 190px;
   background-color: black;
@@ -214,9 +213,9 @@ Character Stuff
   background-size: 100%;
   z-index: 1000;
 }
-.Spongebob3{
+.Spongebob2{
   grid-column-start: 2;
-  grid-row-start: 2;
+  grid-row-start: 1;
 }
 .Homelander2{
   grid-column-start: 2;
