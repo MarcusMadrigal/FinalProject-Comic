@@ -51,7 +51,7 @@ Frame Stuff
   grid-column-start: 1;
   grid-row-start: 2;
 }
-.fourthFrame{
+.secondFrame{
   grid-column-start: 2;
   grid-row-start: 1;
 }
