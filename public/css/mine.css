@@ -36,13 +36,12 @@ Frame Stuff
   grid-column-start: 1;
   grid-row-start: 1;
 }
-.fourthFrame{
+.secondFrame{
   background: url(../img/SpongebobHouse.png) no-repeat;
-  background-position-x: 20%;
-  background-position-y: 110%;
-  background-size: 280%;
+  background-position-x: center;
+  background-position-y: 60%;
   grid-column-start: 2;
-  grid-row-start: 2;
+  grid-row-start: 1;
 }
 .thirdFrame{
   background: url(../img/Crusty_Crab.jpg) no-repeat;
@@ -51,11 +50,13 @@ Frame Stuff
   grid-column-start: 1;
   grid-row-start: 2;
 }
-.secondFrame{
+.fourthFrame{
   background: url(../img/SpongebobHouse.png) no-repeat;
-  background-position: center;
+  background-position-x: 20%;
+  background-position-y: 110%;
+  background-size: 280%;
   grid-column-start: 2;
-  grid-row-start: 1;
+  grid-row-start: 2;
 }
 
 /*
@@ -129,6 +130,15 @@ Character Stuff
     opacity: 1;
     left: 150px;
   }
+}
+.Spongebob2{
+  grid-column-start: 2;
+  grid-row-start: 1;
+  background: url(../img/Spongebob_Scared.png) no-repeat;
+  background-size: 25%;
+  top: 380px;
+  left: 25px;
+  position: relative;
 }
 .Spongebob3{
   grid-column-start: 2;
@@ -215,11 +225,7 @@ Character Stuff
   background-size: 100%;
   z-index: 1000;
 }
-.Spongebob2{
-  background: url(../img/Spongebob_Scared.png) no-repeat;
-  grid-column-start: 2;
-  grid-row-start: 1;
-}
+
 .Homelander2{
   grid-column-start: 2;
   grid-row-start: 2;
