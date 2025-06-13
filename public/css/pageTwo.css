@@ -97,7 +97,7 @@ Character Stuff
 .Spongebob1{
   grid-column-start: 1;
   grid-row-start: 1;
-  background: url(../img/SexySpongebob.png) no-repeat;
+  background: url(../img/Spongebob_bruh.png) no-repeat;
   width: 500px;
   height: 350px;
   position: relative;
@@ -109,7 +109,7 @@ Character Stuff
 .Spongebob2{
   grid-column-start: 2;
   grid-row-start: 1;
-  background: url(../img/SeriousSpongebob.png) no-repeat;
+  background: url(../img/Spongebob_Caveman-removebg-preview.png) no-repeat;
   width: 500px;
   height: 350px;
   position: relative;
@@ -119,12 +119,16 @@ Character Stuff
   background-size: 100%;
   z-index: 999;
   transform: rotateY(180deg);
-  
 }
-
-.Homelander1{
+.Spongebob3{
   grid-column-start: 1;
   grid-row-start: 2;
+  background: url(../img/SpongebobYamchaPoseNB.png) no-repeat;
+  background-size: 100%;
+}
+.Homelander1{
+  grid-column-start: 1;
+  grid-row-start: 1;
   background: url(../img/Homelander_ArmUp_Floating.png) no-repeat;
   width: 500px;
   height: 600px;
@@ -134,17 +138,14 @@ Character Stuff
   background-size: 100%;
   z-index: 1000;
 }
-.Spongebob3{
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
 .Homelander2{
   grid-column-start: 2;
-  grid-row-start: 2;
+  grid-row-start: 1;
 }
 .Patrick1{
-  grid-column-start: 2;
-  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  background: url(../img/Patrick_OneTooth.png);
 }
 
 /*
