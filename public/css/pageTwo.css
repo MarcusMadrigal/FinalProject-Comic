@@ -43,6 +43,9 @@ Frame Stuff
 .thirdFrame{
   grid-column-start: 1;
   grid-row-start: 2;
+  background: url(../img/Creator.jpg) no-repeat;
+  background-size: 170%;
+  background-position-x: 35%;
 }
 .fourthFrame{
   grid-column-start: 2;
@@ -125,6 +128,8 @@ Character Stuff
   grid-row-start: 2;
   background: url(../img/SpongebobYamchaPoseNB.png) no-repeat;
   background-size: 100%;
+  background-position-x: center;
+  background-position-y: center;
 }
 .Homelander1{
   grid-column-start: 1;
