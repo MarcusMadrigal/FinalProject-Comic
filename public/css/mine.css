@@ -154,7 +154,7 @@ Character Stuff
   z-index: 999;
   transform: rotateY(180deg);
   animation-name: slideIn2;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-delay: 0s;
