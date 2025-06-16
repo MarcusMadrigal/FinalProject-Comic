@@ -8,9 +8,7 @@ var LIST = [
             "sampleText"
         ],
         characters: [
-            "Patrick1",
-            "Spongebob1",
-            "Homelander1"
+            "",
         ]
     },
 
@@ -22,8 +20,7 @@ var LIST = [
             "sampleText2"
         ],
         characters: [
-            "Spongebob2",
-            "Homlander2"
+            "",
         ]
     },
 
@@ -35,7 +32,7 @@ var LIST = [
             "sampleText3"
         ],
         characters: [
-            "Spongebob3",
+            "",
         ]
     },
     {
@@ -46,9 +43,7 @@ var LIST = [
             "sampleText4"
         ],
         characters: [
-            "Patrick2",
-            "Spongebob4",
-            "Homelander3"
+            "",
         ]
     }
 ];
