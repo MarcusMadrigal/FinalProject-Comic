@@ -23,7 +23,7 @@ var LIST = [
         ],
         characters: [
             "Spongebob2",
-            "Homlander2"
+            "Homelander2"
         ]
     },
 
