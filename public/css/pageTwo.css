@@ -207,7 +207,7 @@ Nex Page Stuff
   height: 120px;
   width: 200px;
   position: absolute;
-  left: 1005px;
+  left: 845px;
   top: 1225px;
   border-radius: 20px;
   font-size: 50px;
@@ -223,9 +223,9 @@ Nex Page Stuff
 }
 
 @keyframes buttonMove{
-    0% {width: 200px; height: 120px; top: 1225px; left: 1005px;}
-    50% {width: 180px; height: 110px; top: 1230px; left: 1015px;}
-    100% {width: 200px; height: 120px; top: 1225px; left: 1005px;}
+    0% {width: 200px; height: 120px; top: 1225px; left: 845px;}
+    50% {width: 180px; height: 110px; top: 1230px; left: 855px;}
+    100% {width: 200px; height: 120px; top: 1225px; left: 845px;}
 }
 .lastPage{
   height: 120px;
