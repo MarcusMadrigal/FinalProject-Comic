@@ -19,7 +19,7 @@ Frame Stuff
   font-size: 0px;
   box-shadow: 0px 0px 40px white;
   border-radius: 20px;
-  height: 1120px;
+  height: 860px;
   width: 1fr;
 }
 
@@ -44,24 +44,47 @@ Character Stuff
 }
 
 .Homelander1{
-  grid-column-start: 1;
-  grid-row-start: 1;
-  background: url(../img/Homelander_ArmUp_Floating.png) no-repeat;
-  width: 500px;
-  height: 600px;
-  position: relative;
-  left: 375px;
-  top: 150px;
-  background-size: 35%;
+  background: url(../img/Homelander-Flies-removebg-preview.png) no-repeat;
+  width: 1100px;
+  height: 1350px;
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%);
+  top: 200px;
+  background-size: 100%;
   z-index: 1000;
+  animation-name: hideANDshow;
+  animation-duration: 3.9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes hideANDshow {
+  0% {
+    opacity: 0;
+  }
+  63.9%{
+    opacity: 0;
+  }
+  64%{
+    opacity: 1;
+  }
+  76.9%{
+    opacity: 1;
+  }
+  77%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
 }
 
 .Patrick1{
   grid-column-start: 1;
   grid-row-start: 1;
   background: url(../img/PatrickThrowingBoot.gif) no-repeat;
-  height: 450px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
   background-size: 100%;
   position: relative;
   top: 50%;
