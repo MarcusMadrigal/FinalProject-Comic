@@ -6,7 +6,7 @@ body{
 
 .grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 570px 570px;
   grid-template-rows: 550px 550px 120px;
   gap: 40px;
 }
@@ -232,7 +232,7 @@ Character Stuff
   background-size: 50%;
   top: 52%;
   left: 280px;
-  z-index: 1000;
+  z-index: 999;
   transform: rotateY(180deg);
 }
 .Patrick1{
@@ -268,7 +268,7 @@ Character Stuff
   background-size: 50%;
   top: 75%;
   left: 250px;
-  z-index: 1000;
+  z-index: 999;
 }
 /*
 _____________________________________________________________________________________________________________
@@ -278,18 +278,19 @@ Nex Page Stuff
 */
 
 
-.nextPage{
+.nextPage2{
   height: 120px;
   width: 200px;
   position: absolute;
-  left: 1005px;
+  left: 1010px;
   top: 1225px;
   border-radius: 20px;
   font-size: 50px;
   background-color: darkgray;
+  z-index: 1000;
 }
 
-.nextPage:hover{
+.nextPage2:hover{
     background-color: white;
     animation-name: buttonMove;
     animation-duration: 1s;
@@ -298,9 +299,9 @@ Nex Page Stuff
 }
 
 @keyframes buttonMove{
-    0% {width: 200px; height: 120px; top: 1225px; left: 1005px;}
-    50% {width: 180px; height: 110px; top: 1230px; left: 1015px;}
-    100% {width: 200px; height: 120px; top: 1225px; left: 1005px;}
+    0% {width: 200px; height: 120px; top: 1225px; left: 1010px;}
+    50% {width: 180px; height: 110px; top: 1230px; left: 1020px;}
+    100% {width: 200px; height: 120px; top: 1225px; left: 1010px;}
 }
 .lastPage{
   height: 120px;
