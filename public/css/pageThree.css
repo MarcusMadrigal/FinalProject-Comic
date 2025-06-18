@@ -33,13 +33,13 @@ Character Stuff
 .Spongebob1{
   grid-column-start: 1;
   grid-row-start: 1;
-  background: url(../img/Spongebob_bruh.png) no-repeat;
+  background: url(../img/SpongebobYamchaPoseNB.png) no-repeat;
   width: 500px;
   height: 350px;
   position: relative;
   left: 150px;
-  top: 350px;
-  background-size: 25%;
+  top: -175px;
+  background-size: 50%;
   z-index: 1000;
 }
 
@@ -50,23 +50,22 @@ Character Stuff
   width: 500px;
   height: 600px;
   position: relative;
-  left: 375px;
-  top: 150px;
-  background-size: 35%;
+  left: 800px;
+  top: -250px;
+  background-size: 60%;
   z-index: 1000;
 }
 
 .Patrick1{
   grid-column-start: 1;
   grid-row-start: 1;
-  background: url(../img/Patrick_OneTooth.png) no-repeat;
+  background: url(../img/Patrick_Pointing.png) no-repeat;
   height: 450px;
   width: 300px;
-  background-size: 15%;
+  background-size: 85%;
   position: relative;
-  top: 341px;
-  left: -180px;
-  transform: rotateY(180deg);
+  top: 700px;
+  left: 500px;
 }
 
 /*
