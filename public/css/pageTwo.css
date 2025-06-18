@@ -53,6 +53,9 @@ Frame Stuff
 .fourthFrame{
   grid-column-start: 2;
   grid-row-start: 2;
+  background: url(../img/SpongebobHouse.png) no-repeat;
+  background-position: 10%;
+  background-size: 130%;
 }
 
 
@@ -226,9 +229,9 @@ Character Stuff
   height: 450px;
   width: 300px;
   position: relative;
-  background-size: 40%;
-  top: 38%;
-  left: 250px;
+  background-size: 50%;
+  top: 52%;
+  left: 280px;
   z-index: 1000;
   transform: rotateY(180deg);
 }
@@ -250,9 +253,9 @@ Character Stuff
   background: url(../img/Patrick_Shocked.png) no-repeat;
   height: 520px;
   width: 300px;
-  background-size: 75%;
-  top: 25%;
-  left: 1%;
+  background-size: 35%;
+  top: 63%;
+  left: 7%;
   position: relative;
 }
 .Spongebob4{
@@ -263,8 +266,8 @@ Character Stuff
   width: 300px;
   position: relative;
   background-size: 50%;
-  top: 70%;
-  left: 300px;
+  top: 75%;
+  left: 250px;
   z-index: 1000;
 }
 /*
@@ -279,7 +282,7 @@ Nex Page Stuff
   height: 120px;
   width: 200px;
   position: absolute;
-  left: 845px;
+  left: 1005px;
   top: 1225px;
   border-radius: 20px;
   font-size: 50px;
@@ -295,9 +298,9 @@ Nex Page Stuff
 }
 
 @keyframes buttonMove{
-    0% {width: 200px; height: 120px; top: 1225px; left: 845px;}
-    50% {width: 180px; height: 110px; top: 1230px; left: 855px;}
-    100% {width: 200px; height: 120px; top: 1225px; left: 845px;}
+    0% {width: 200px; height: 120px; top: 1225px; left: 1005px;}
+    50% {width: 180px; height: 110px; top: 1230px; left: 1015px;}
+    100% {width: 200px; height: 120px; top: 1225px; left: 1005px;}
 }
 .lastPage{
   height: 120px;
