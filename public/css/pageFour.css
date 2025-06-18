@@ -129,7 +129,7 @@ Nex Page Stuff
   width: 230px;
   position: absolute;
   left: 50px;
-  top: 1000px;
+  top: 970px;
   border-radius: 20px;
   font-size: 50px;
   background-color: darkgray;
@@ -145,8 +145,8 @@ Nex Page Stuff
 }
 
 @keyframes lastbuttonMove{
-    0% {width: 230px; height: 120px; top: 1000px; left: 50px;}
-    50% {width: 210px; height: 110px; top: 1005px; left: 60px;}
-    100% {width: 230px; height: 120px; top: 1000px; left: 50px;}
+    0% {width: 230px; height: 120px; top: 970px; left: 50px;}
+    50% {width: 210px; height: 110px; top: 975px; left: 60px;}
+    100% {width: 230px; height: 120px; top: 970px; left: 50px;}
 }
 
