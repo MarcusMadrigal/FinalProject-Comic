@@ -3,15 +3,6 @@ body{
   margin: 40px;
 }
 
-
-.grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 550px 550px 120px;
-  gap: 40px;
-}
-
-
 /*
 _____________________________________________________________________________________________________________
 
@@ -19,70 +10,15 @@ Frame Stuff
 
 */
 
-
 .frame{
   background-color: aliceblue;
   border: 10px, ridge black;
   font-size: 0px;
   box-shadow: 0px 0px 40px white;
   border-radius: 20px;
+  height:850px;
+  width: 1140px;
 }
-
-
-.firstFrame{
-  background: url(../img/SpongebobHouse.png) no-repeat;
-  background-position: 10%;
-  background-size: 130%;
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
-.secondFrame{
-  grid-column-start: 2;
-  grid-row-start: 1;
-}
-.thirdFrame{
-  grid-column-start: 1;
-  grid-row-start: 2;
-  background: url(../img/Creator.jpg) no-repeat;
-  background-size: 170%;
-  background-position-x: 35%;
-}
-.fourthFrame{
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
-
-
-/*
-_____________________________________________________________________________________________________________
-
-Text Stuff
-
-*/
-
-
-.words{
-  font-size: 0px;
-}
-
-
-.sampleText{
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
-.sampleText2{
-  grid-column-start: 2;
-  grid-row-start: 1;
-}
-.sampleText3{
-  grid-column-start: 1;
-  grid-row-start: 2;
-}
-.sampleText4{
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
-
 
 /*
 _____________________________________________________________________________________________________________
@@ -90,12 +26,6 @@ ________________________________________________________________________________
 Character Stuff
 
 */
-
-
-.characters{
-  font-size: 0px;
-}
-
 
 .Spongebob1{
   grid-column-start: 1;
@@ -109,28 +39,7 @@ Character Stuff
   background-size: 25%;
   z-index: 1000;
 }
-.Spongebob2{
-  grid-column-start: 2;
-  grid-row-start: 1;
-  background: url(../img/Spongebob_Caveman-removebg-preview.png) no-repeat;
-  width: 500px;
-  height: 350px;
-  position: relative;
-  left: 40px;
-  transform: translateX(-50%);
-  top: 150px;
-  background-size: 100%;
-  z-index: 999;
-  transform: rotateY(180deg);
-}
-.Spongebob3{
-  grid-column-start: 1;
-  grid-row-start: 2;
-  background: url(../img/SpongebobYamchaPoseNB.png) no-repeat;
-  background-size: 100%;
-  background-position-x: center;
-  background-position-y: center;
-}
+
 .Homelander1{
   grid-column-start: 1;
   grid-row-start: 1;
@@ -143,23 +52,7 @@ Character Stuff
   background-size: 35%;
   z-index: 1000;
 }
-.Homelander2{
-  grid-column-start: 2;
-  grid-row-start: 1;
-}
-.Homelander3{
-  grid-column-start: 2;
-  grid-row-start: 2;
-  background: url(../img/homelander_victory_pose.png) no-repeat;
-  height: 450px;
-  width: 300px;
-  position: relative;
-  background-size: 40%;
-  top: 38%;
-  left: 250px;
-  z-index: 1000;
-  transform: rotateY(180deg);
-}
+
 .Patrick1{
   grid-column-start: 1;
   grid-row-start: 1;
@@ -172,36 +65,13 @@ Character Stuff
   left: -180px;
   transform: rotateY(180deg);
 }
-.Patrick2{
-  grid-column-start: 2;
-  grid-row-start: 2;
-  background: url(../img/Patrick_Shocked.png) no-repeat;
-  height: 520px;
-  width: 300px;
-  background-size: 75%;
-  top: 25%;
-  left: 1%;
-  position: relative;
-}
-.Spongebob4{
-  grid-column-start: 2;
-  grid-row-start: 2;
-  background: url(../img/SpongebobYamchaPoseNB.png) no-repeat;
-  height: 450px;
-  width: 300px;
-  position: relative;
-  background-size: 50%;
-  top: 70%;
-  left: 300px;
-  z-index: 1000;
-}
+
 /*
 _____________________________________________________________________________________________________________
 
 Nex Page Stuff
 
 */
-
 
 .nextPage{
   height: 120px;
@@ -251,3 +121,4 @@ Nex Page Stuff
     50% {width: 210px; height: 110px; top: 1230px; left: 60px;}
     100% {width: 230px; height: 120px; top: 1225px; left: 50px;}
 }
+
